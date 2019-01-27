@@ -7,8 +7,6 @@ app = Flask(__name__)
 def main():
 	r = requests.get('https://loahae.com/')
 	soup = BeautifulSoup(r.text, 'html.parser')
-	mari = soup.find('div', {'class':'box mari'})
-	print type(mari)
-	return '<html><head><link href="https://loahae.com/assets/css/loahae.css" rel="stylesheet"></head><body>'+str(mari)+'</body></html>'
-	#return 'test'
+	data = soup.find('div', {'class':'content'})
+	return '<!DOCTYPE html><head><meta charset="utf-8"><link href="https://loahae.com/assets/css/loahae.css" rel="stylesheet"></head><body class="main">%s</body></html>' % str(data)
 app.run(host='0.0.0.0', debug=True)
