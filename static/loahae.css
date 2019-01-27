@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
 *
 {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'cursive', sans-serif;
   box-sizing: border-box;
   font-weight: 400;
   margin: 0;
   font-size: 14px;
   color: #212121;
+  background-color: #333333
 }
 html {
   line-height: 1.6;
@@ -61,7 +62,7 @@ table
 }
 p,span,i,h1,h2,h3,h4,h5,li,ul,div,a
 {
-  color: inherit;
+  color: #ffffff;
   font-size: inherit;
 }
 /* ㅡㅡ */
@@ -393,12 +394,12 @@ header .top-m
   border-bottom: 1px solid #eee;
   padding: 10px 15PX;
   font-weight: 700;
-  color: #212121;
+  color: #ffffff;
 }
 .main .content .cover .box .top > a
 {
   float: right;
-  color: #777;
+  color: #333333;
 }
 .main .content .cover .box .con
 {
@@ -418,7 +419,7 @@ header .top-m
 .main .content .cover .box.calendar table td
 {
   padding: 5px;
-  color: #777;
+  color: #ffffff;
 }
 .main .content .cover .box.calendar table td:nth-child(1)
 {
@@ -436,16 +437,16 @@ header .top-m
 .main .content .cover .box.ranking table td
 {
   padding: 5px;
-  color: rgba(0,0,0,.5);
+  color: #ffffff;
 }
 .main .content .cover .box.ranking table td:nth-child(2), .main .content .cover .box.ranking table td:nth-child(3)
 {
   font-weight: 500;
-  color: #212121;
+  color: #ffffff;
 }
 .main .content .cover .box.ranking table td span
 {
-  color: rgba(0,0,0,.5);
+  color: #ffffff;
   font-size: 12px;
 }
 .main .content .cover .box.other

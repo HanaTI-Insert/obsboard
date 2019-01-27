@@ -5,9 +5,8 @@ import requests
 app = Flask(__name__)
 @app.route("/")
 def main():
-	r = requests.get('https://loahae.com/')
-	soup = BeautifulSoup(r.text, 'html.parser')
-	data = soup.find('div', {'class':'content'})
-        return render_template('index.html', content=unicode(data))
-	#return '<!DOCTYPE html><head><meta charset="utf-8"><link href="https://loahae.com/assets/css/loahae.css" rel="stylesheet"></head><body class="main"></br>%s<meta http-equiv="refresh" content="600; URL=/"></body></html>' % str(data)
+    soup = BeautifulSoup(requests.get('https://loahae.com/').text, 'html.parser')
+    m = soup.find('div', {'class':'box mari'})
+    c = soup.find('div', {'class':'box calendar'})
+    return render_template('index.html', mari=unicode(m), calendar=unicode(c))
 app.run(host='0.0.0.0', debug=True)
