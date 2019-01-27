@@ -1,183 +1,1763 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>로아해 : err</title>
-		<meta name="description" content="로스트아크 전적 검색, 랭킹, 캘린더 알람, 항해지도, 섬의마음 등 정보 제공">
-	<link rel="canonical" href="https://loahae.com">
-	<meta property="og:url" content="https://loahae.com">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="로아해">
-	<meta property="og:description" content="로스트아크 전적 검색, 랭킹, 캘린더 알람, 항해지도, 섬의마음 등 정보 제공">
-	<meta property="og:image" content="https://loahae.com/assets/img/meta.png">
-	<meta name="robots" content="index,follow">
-	<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/assets/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128581671-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-128581671-1');
-	</script>
-	<link href="/assets/css/loahae.css?190126" rel="stylesheet">
-	<link href="/assets/icon/icon.css" rel="stylesheet">
-	<link href="/assets/css/audioplayer.css?181208" rel="stylesheet">	<style type="text/css">
-		.err-page
-		{
-			text-align: center;
-			padding: 60px 10px;
-			font-size: 25px;
-			color: #777;
-		}
-		.err-page p > span
-		{
-			font-weight: 500;
-			color: #212121;
-		}
-		.err-page h1
-		{
-			font-size: 30px;
-			color: #aaa;
-			font-weight: 700;
-		}
-		.err-page a
-		{
-			border-bottom: 1px solid #aaa;
-			transition: .2s;
-		}
-		.err-page a:hover
-		{
-			color: #7e9c8c;
-		}
-	</style>
-</head>
-<body>
-
-  
-	<div class="top-bg">
-		<header>
-			<div class="top">
-				<div class="c-max-w">
-					<a href="/" class="logo"><img src="/assets/img/logo.png"></a>
-					<a href="/login/" class="login"><button type="button"><i class="icon-login"></i> 로그인</button></a>					<button type="button" class="top-m" id="c-mobile-menu-btn"><i class="icon-menu"></i></button>
-				</div>
-			</div>
-			<div class="menu" id="c-mobile-menu">
-				<div class="c-max-w">
-					<ul>
-						<li class="li-m"><a href="/login/" class="login"><i class="icon-login"></i> 로그인</a></li>
-						<li ><a href="/">캐릭터검색</a></li>
-						<li ><a href="/ranking/">랭킹</a></li>
-						<li ><a href="/stat/">통계</a></li>
-						<li ><a href="/calendar/">캘린더</a></li>
-						<li ><a href="/island/">항해지도/랭킹/정보</a></li>
-						<li ><a href="/market/">자유시장</a></li>
-						<li ><a href="/guildad/">길드모집</a></li>
-						<li><a href="https://open.kakao.com/o/gPmSD34" target="_blank">채팅</a></li>
-					</ul>
-				</div>
-			</div>
-		</header>
-
-	</div>
-	<div class="c-content c-max-w">
-
-		<div class="err-page">
-			<h1>죄송합니다</h1>
-			<p><span>존재하지 않는 페이지</span> 또는 <span>개발 중인 페이지</span> 입니다.</p>
-			<a href="/">메인으로 이동</a>
-		</div>
-
-	</div>
-
-<footer>
-	<p><a href="https://open.kakao.com/o/svusE34" target="_blank">의견/문의/개선 요청</a> | <a href="/log/" target="_blank">개발 일지 및 안내판</a></p>
-	<p>Copyright ⓒ 2018 로아해(loahae.com) All Rights Reserved</p>
-</footer>
-<div class="c-modal-res">
-	<div class="c-modal-all-close" style="display: none;">
-		모두 닫기
-	</div>
-	<div id="c-modal-res">
-	</div>
-</div>
-<div id="c-alarm" style="display: none;">
-</div>
-<div class="c-audio-container">
- <div class="c-audio-notice">
-   <i class="icon-cancel"></i>
- 	<span style="color: #c7fffa; font-weight: 700; margin-right: 5px; font-size: 14px;">New</span><br />
- 	캘린더 알람 관련 설정(<a href="/set/"><i class="icon-cog" style="float: none;"></i></a>)은 로그인 필요<br />
- 	크롬 보안 문제로 인해, 아래 버튼을 눌러 최초 1회 직접 재생 -> 자동소리알람 발생
- </div>
- <div class="c-audio-box">
-   <audio preload="auto" controls>
-     <source src="/assets/audio/alarm.mp3">
-   </audio>
- </div>
-</div>
-
-<script src='/assets/js/jquery-loahae.js?181209'></script>
-<script src="/assets/js/audioplayer.min.js"></script>
-<script src="/assets/js/ad.js?190118"></script>
-<script type="text/javascript">
-(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
-$('.c-audio-box audio').audioPlayer();
-$(function()
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
+*
 {
-	calendar_load();
-	setInterval(function()
-	{
-		calendar_alarm();
-	}, 1000)
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+  margin: 0;
+  font-size: 14px;
+  color: #212121;
+}
+html {
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+}
+li
+{
+  list-style-type: none;
+  float: left;
+}
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
+button
+{
+  cursor: pointer;
+  outline: none;
+  transition: .2s;
+}
+button:hover
+{
+  opacity: .9;
+  box-shadow: 0px 3px 9px -1px rgba(0, 0, 0, 0.7);
+}
+textarea, input
+{
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-weight: 400;
+}
+table
+{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+::selection
+{
+  background: rgba(199, 150, 143, 0.5);
+  color: #fff;
+}
+p,span,i,h1,h2,h3,h4,h5,li,ul,div,a
+{
+  color: inherit;
+  font-size: inherit;
+}
+/* ㅡㅡ */
+.c-max-w
+{
+  max-width: 1000px;
+  margin: auto;
+}
+.c-content
+{
+  margin-top: 10px;
+}
+.c-modal-res
+{
+  position: fixed;
+  top: 250px;
+  width: 300px;
+  left: 50%;
+  border-radius: 3px;
+  margin-top: -150px;
+  margin-left: -150px;
+  z-index: 10;
+}
+.c-modal
+{
+  background-color: rgba(27,27,27,.9);
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: 0px 0px 30px 5px rgba(0,0,0,.7);
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.c-modal-all-close
+{
+  background-color: rgba(27,27,27,.9);
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: 0px 0px 30px 5px rgba(0,0,0,.7);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.c-modal .close
+{
+  float: right;
+  cursor: pointer;
+  font-size: 22px;
+  margin-right: -14px;
+  margin-top: -5px;
+}
+.c-modal .content
+{
+  padding-top: 10px;
+}
+.c-modal h1
+{
+  color: rgba(255,255,255,.7);
+}
+.c-modal h2
+{
+  font-weight: 700;
+  font-size: 17px;
+  color: rgba(255,255,255,.9);
+  margin-bottom: 4px;
+}
+.c-modal h3
+{
+  color: rgba(255,255,255,.8);
+  float: left;
+}
+.c-modal h4
+{
+  color: rgba(255,255,255,.8);
+  float: right;
+}
 
-	$(document).on('click','.c-audio-container .icon-cancel',function()
-	{
-		$('.c-audio-notice').fadeOut(200);
-	})
+.c-help-box
+{
+  margin: auto;
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  max-width: 1000px;
+  padding: 10px;
+  background: #f9f9f9;
+  color: #777;
+}
+.c-help-box h1
+{
+  color: #444;
+}
+.c-help-box .btn-ex
+{
+  border: 1px solid #789071;
+  background-color: #94b18b;
+  color: #eee;
+  padding: 2px 10px;
+  margin-top: 5px;
+}
+.c-audio-container
+{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 3;  
+}
+.c-audio-notice
+{
+  position: fixed;
+  width: 250px;
+  bottom: 55px;
+  right: 10px;
+  background-color: rgba(26,26,26,.9);
+  padding: 6px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.c-audio-notice i
+{
+  cursor: pointer;
+}
+.c-audio-box
+{
+  width: 70px; 
+}
 
-	$(document).on('click','.c-modal-all-close',function()
-	{
-		$('.c-modal').fadeOut(200);
-		$('.c-modal-all-close').attr('style','display: none;');
-	})
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #c7968f;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
 
-	$(document).on('click','.c-modal .close',function()
-	{
-		$(this).parents('.c-modal').fadeOut(200);
-	})
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
 
-	$(document).on('click','#c-mobile-menu-btn',function()
-	{
-		$('#c-mobile-menu').slideToggle(200);
-	});
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+/* ㅡㅡ */
+footer
+{
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  padding: 30px 10px;
+}
 
-	var contentHeight = $(window).height();var footerHeight = $('footer').height();var footerTop = $('footer').position().top + footerHeight;if (footerTop < contentHeight){var footer_res = (contentHeight - footerTop) - 30;	if(footer_res < 0){	var footer_res = footer_res -30;	} if(footer_res > 300){ var footer_res = 200;} $('footer').css('margin-top', footer_res + 'px');
-	}
 
-	$('.c-audio-box audio')[0].volume = 0.4;
+.main .top-bg
+{
+  background-image: url("//loahae.speedgabia.com/assets/img/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.top-bg
+{
+  background-image: url("//loahae.speedgabia.com/assets/img/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-})
-</script>
-</body>
-</html>
+header .logo > img
+{
+  height: 38px;
+  margin-top: 4px;
+}
+header .top
+{
+  overflow: hidden;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #111;
+}
+header .top .login button
+{
+  float: right;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+}
+header .top .logins button
+{
+  font-size: 25px;
+  padding: 5px;
+}
+header .menu
+{
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  z-index: 12;
+}
+header .menu li
+{
+  margin-right: 15px;
+}
+header .menu li:hover
+{
+  color: #fff;
+}
+header .menu li.active
+{
+  color: #fff;
+  text-shadow: 0px 0px 20px rgba(234, 141, 178, 1);
+}
+header .top-m
+{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  float: right;
+  display: none;
+}
+
+.main .main-box
+{
+  text-align: center;
+  padding: 30px 10px;
+  background-color: rgba(169, 137, 148, 0.1);
+}
+.main .main-box .search .shadow
+{
+  width: 258px;
+  margin: auto;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,.3);
+  overflow: hidden;
+}
+.main .main-box .search input
+{
+  border: none;
+  background-color: #fff;
+  padding: 15px;
+  height: 40px;
+  width: 218px;
+  float: left;
+}
+.main .main-box .search button
+{
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: #fff;
+  font-size: 20px;
+  float: left;
+}
+.main .main-box .text p
+{
+  color: rgba(255,255,255,.7);
+  font-size: 17px;
+  padding-top: 15px;
+}
+.main .content
+{
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px 0;
+  margin-top: -30px;
+}
+.main .content .cover
+{
+  overflow: hidden;
+}
+.main .content .cover .box
+{
+  float: left;
+  border: 1px solid #eee;
+  background-color: #fff;
+  margin-right: 5px;
+}
+.main .content .cover .box .top
+{
+  border-bottom: 1px solid #eee;
+  padding: 10px 15PX;
+  font-weight: 700;
+  color: #212121;
+}
+.main .content .cover .box .top > a
+{
+  float: right;
+  color: #777;
+}
+.main .content .cover .box .con
+{
+  padding: 10PX;
+  min-height: 180px;
+  overflow: hidden;
+}
+.main .content .cover .box.calendar
+{
+  min-width: 270px;
+}
+.main .content .cover .box.calendar table
+{
+  width: 100%;
+  text-align: left;
+}
+.main .content .cover .box.calendar table td
+{
+  padding: 5px;
+  color: #777;
+}
+.main .content .cover .box.calendar table td:nth-child(1)
+{
+  min-width: 50px;
+}
+.main .content .cover .box.ranking
+{
+  min-width: 270px;
+}
+.main .content .cover .box.ranking table
+{
+  width: 100%;
+  text-align: left;
+}
+.main .content .cover .box.ranking table td
+{
+  padding: 5px;
+  color: rgba(0,0,0,.5);
+}
+.main .content .cover .box.ranking table td:nth-child(2), .main .content .cover .box.ranking table td:nth-child(3)
+{
+  font-weight: 500;
+  color: #212121;
+}
+.main .content .cover .box.ranking table td span
+{
+  color: rgba(0,0,0,.5);
+  font-size: 12px;
+}
+.main .content .cover .box.other
+{
+  min-width: 340px;
+  width: calc(100% - 560px);
+  color: #888;
+}
+.main .content .cover .box.other .con > a
+{
+  width: 100%;
+  float: left;
+  padding: 5px 10px;
+  text-align: left;
+}
+.main .content .cover .box.mari
+{
+  min-width: 340px;
+  width: calc(100% - 560px);
+  color: #888;
+}
+.main .content .cover .box.mari .layer-detail
+{
+  display: none;
+}
+.main .content .cover .box.mari .bt-show-tooltip
+{
+  display: none;
+}
+.main .content .cover .box.mari .area-button
+{
+  display: none;
+}
+.main .content .cover .box.mari li
+{
+  width: 100%;
+  line-height: 38px;
+}
+.main .content .cover .box.mari .thumbs
+{
+  float: left;
+}
+.main .content .cover .box.mari .thumbs img
+{
+  height: 40px;
+  width: 40px;
+}
+.main .content .cover .box.mari .item-desc
+{
+  float: left;
+  line-height: 30px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #777;
+}
+.main .content .cover .box.mari .area-amount
+{
+  float: right;
+  line-height: 30px;
+  font-size: 14px;
+}
+.main .content .cover .box.mari .area-amount .amount
+{
+  height: 40px;
+  width: 40px;
+}
+.main .content .cover .box.mari .area-amount .amount:before
+{
+  background-image: url('//loahae.speedgabia.com/assets/img/cash.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  content: "　";
+  float: left;
+  margin-top: 5px;
+}
+/* ~ main */
+
+/* claendar ~ */
+.calendar-tab
+{
+  overflow: hidden;
+}
+.calendar-tab .tab
+{
+  overflow: hidden;
+}
+.calendar-tab .tab button
+{
+  width: calc(100% / 5);
+  float: left;
+  border: 0px;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  padding: 5px;
+  height: 60px;
+  opacity: 0.6;
+}
+.calendar-tab .tab button:nth-child(5)
+{
+  border-right: 0px;
+}
+.calendar-tab .tab button.active, .calendar-tab .tab button:hover
+{
+  border-bottom: 1px solid #111;
+  font-weight: 500;
+  color: #111;
+  opacity: 1;
+}
+.calendar-tab .date
+{
+  margin-top: 10px;
+  overflow: hidden;
+}
+.calendar-tab .date .center input
+{
+  width: 160px;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  border: 0px;
+  background-color: transparent;
+}
+.calendar-tab .date .left, .calendar-tab .date .right
+{
+  width: calc((100% - 160px) / 2);
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+}
+.calendar-tab .table
+{
+  margin-top: 5px;
+}
+.calendar-tab table
+{
+  width: 100%;
+  text-align: left;
+}
+.calendar-tab table img, .calendar-tab .tab button img, .calendar-img-number
+{
+  height: 23px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.calendar-tab table td:nth-child(1)
+{
+  min-width: 220px;
+}
+.calendar-tab table td:nth-child(2)
+{
+  min-width: 75px;
+}
+.calendar-tab table td:nth-child(3)
+{
+  border-right: 0px;
+}
+.calendar-tab table th
+{
+  border-bottom: 1px solid #aaa;
+  padding: 7px;
+}
+.calendar-tab table td
+{
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 7px;
+  color: #555;
+}
+.calendar-tab table .past td
+{
+  color: #bbb;
+}
+.calendar-tab input::-webkit-inner-spin-button, .calendar-tab input::-webkit-clear-button
+{
+  display: none;
+}
+.calendar-tab input::-webkit-calendar-picker-indicator
+{
+  color: rgba(0, 0, 0, 0);
+  opacity: 1
+}
+.calendar-tab input::-webkit-calendar-picker-indicator:hover
+{
+  background: transparent;
+  cursor: default;
+}
+/* ~ calendar */
+
+/* ranking ~ */
+.ranking
+{
+  overflow: hidden;
+}
+.ranking .find
+{
+  margin: 10px 0;
+}
+.ranking .find select
+{
+  width: calc(50% - 5px);
+  padding: 10px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+.ranking .top3
+{
+  overflow: hidden;
+  text-align: center;
+  background-image: url('//loahae.speedgabia.com/assets/img/bg3.jpg');
+  background-size: contain;
+  background-position: top;
+}
+.ranking .top3 .bgc
+{
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  box-shadow: inset 20px 5px 90px 80px rgba(0,0,0,0.6)
+}
+.ranking .top3 h1
+{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  background-color: #fff;
+}
+.ranking .top3 .st
+{
+  float: left;
+  width: calc(100% / 3 - 20px);
+  color: #999;
+  font-size: 13px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+.ranking .top3 .st p > span
+{
+  font-size: 17px;
+  color: #eee;
+}
+.ranking .top3 .st .character
+{
+  color: #fff;
+  font-size: 16px;
+}
+.ranking .top3 .medal
+{
+  vertical-align: middle;
+}
+.ranking .top3 .st .job
+{
+  max-width: 222px;
+  width: 100%;
+}
+.ranking .top3 .st1
+{
+  box-shadow: inset -1px 0px 100px 20px rgba(247, 213, 99, 0.5);
+  border-radius: 100%;
+}
+.ranking .top3 .st2
+{
+  margin-top: 30px;
+  box-shadow: inset -1px 0px 100px 20px rgba(192, 205, 215, 0.5);
+  border-radius: 100%;
+}
+.ranking .top3 .st3
+{
+  margin-top: 60px;
+  box-shadow: inset -1px 0px 100px 20px rgba(250, 192, 128, 0.5);
+  border-radius: 100%;
+}
+.ranking .list table
+{
+  width: 100%;
+  text-align: left;
+  min-width: 550px;
+}
+.ranking .list table th
+{
+  font-weight: 500;
+  color: #aaa;
+  font-size: 16px;
+}
+.ranking .list table th, .ranking .list table td
+{
+  padding: 10px;
+}
+.ranking .list table thead
+{
+  border-bottom: 1px solid #bbb;
+}
+.ranking .list table td
+{
+  border-bottom: 1px solid #eee;
+}
+.ranking .list table th:nth-child(2), .ranking .list table th:nth-child(5), .ranking .list table th:nth-child(6)
+{
+  color: #212121;
+}
+.ranking .list table td:nth-child(1)
+{
+  font-size: 17px;
+  font-weight: 500;
+}
+.ranking .list table td:nth-child(2)
+{
+  font-size: 17px;
+  font-weight: 500;
+}
+.ranking .list table td:nth-child(3)
+{
+  font-size: 15px;
+  color: #999;
+}
+.ranking .list table td:nth-child(4)
+{
+  font-size: 15px;
+  color: #999;
+}
+.ranking .list table td:nth-child(5)
+{
+  font-size: 17px;
+  font-weight: 500;
+}
+.ranking .list table td:nth-child(5) > span
+{
+  font-size: 12px;
+  color: #999;
+}
+.ranking .list table th:nth-child(6)
+{
+  color: #999
+}
+.ranking .list table td:nth-child(6)
+{
+  font-size: 15px;
+  color: #999;
+}
+/* ~ ranking */
+
+/* stat ~*/
+.stat
+{
+  overflow: hidden;
+  width: 100%;
+}
+.stat .stat-box
+{
+  float: left;
+  width: calc(100% / 3 - 15px);
+  margin-right: 5px;
+}
+.stat .stat-box h1
+{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.stat .stat-box.job-box .percentagem
+{
+  background-color: #2a4b88;
+}
+.stat .stat-box.ilv-box .percentagem
+{
+  background-color: #a93333;
+}
+.stat .stat-box.pvp-box .percentagem
+{
+  background-color: #54398c;
+}
+.stat .stat-box.server-box .percentagem
+{
+  background-color: #398438;
+}
+
+.stat .stat-box.server-box
+{
+  width: 100%;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.stat .stat-box .card
+{
+  position: relative;
+  height: 30px;
+  margin: 10px;
+  padding-left:50px;
+}
+.stat .stat-box.job-box .card, .stat .stat-box.ilv-box .card, .stat .stat-box.pvp-box .card, .stat .stat-box.server-box .card
+{
+  padding-left: 0px;
+}
+.stat .stat-box .card img {
+    position:absolute;
+    top:0;
+    left:0;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding:1px;
+}
+.stat .stat-box .card .parcial {
+    display:inline-block;
+    width:100%;
+    height:40px;
+    vertical-align:middle;
+    padding: 0 0 0 10px;
+}
+.stat .stat-box .card .parcial .info {
+    height:15px;
+    position: relative;
+}
+.stat .stat-box .card .parcial .info > div {
+    float:left;
+}
+.stat .stat-box .card .parcial .info .nome
+{
+  position: absolute;
+  top: 0;
+  left:0;
+  font-size: 14px;
+  color: #444;
+}
+.stat .stat-box .card .parcial .info .eleito, .stat .stat-box .card .parcial .info .segundo-turno {
+    color: #fff;
+    padding: 0 5px 2px 5px;
+    border-radius: 2px;
+}
+.stat .stat-box .card .parcial .info .percentagem-num{
+    position: absolute;
+    top:0;
+    right:0;
+    font-size: 14px;
+    color: #444;
+}
+.stat .stat-box .card .parcial .progressBar {
+    position:relative;
+    width:100%;
+    height:7px;
+    margin:7px 0 2px;
+    background: #eee;
+}
+.stat .stat-box .card .parcial .progressBar .percentagem
+{
+  position:absolute;
+  top:0;
+  left:0;
+  height:7px;
+  -webkit-transition: 5s all;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-name: animationProgress;
+}
+.stat .stat-box .card .parcial .partidas {
+    font-size: 10px;
+    font-weight: 600;
+    color: #9e9c9b;
+    text-transform: uppercase;
+}
+.stat .stat-box .percentual {
+    -webkit-transition: 0.5s all;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-name: animationProgress;
+    transition: 0.5s all;
+    animation-duration: 0.5s;
+    animation-name: animationProgress;
+}
+@-webkit-keyframes animationProgress {
+    from {
+        width:0;
+    }
+}
+@keyframes animationProgress {
+    from {
+        width:0;
+    }
+}
+/* ~ stat */
+
+/* guildad ~ */
+.guildad
+{
+  padding-bottom: 10px;
+}
+.guildad form
+{
+  max-width: 500px;
+  margin: auto;
+}
+.guildad form h1
+{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.guildad form input, .guildad form textarea
+{
+  width: 100%;
+  padding: 5px;
+  border: 0px;
+  border-bottom: 1px solid #ddd;
+}
+.guildad form textarea
+{
+  resize: none;
+  height: 90px;
+}
+.guildad form button
+{
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #3e4461;
+  background-color: #424e8a;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+}
+.guildad form select
+{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+.guildad-feeds
+{
+  overflow: hidden;
+}
+.guildad-feeds h1
+{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.guildad-feeds .feed-box
+{
+  overflow: hidden;
+  float: left;
+  width: calc(100% / 3 - 10px);
+  margin-right: 10px;
+}
+.guildad-feeds .feed
+{
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-bottom: 1px solid #424e8a;
+  margin-bottom: 10px;
+}
+.guildad-feeds .feed h2
+{
+  color: #888;
+  border-bottom: 1px dotted #eee;
+  font-size: 13px;
+}
+.guildad-feeds .feed p
+{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.guildad-feeds .feed .server
+{
+  font-size: 16px;
+}
+.guildad-feeds .feed .name
+{
+  font-size: 20px;
+}
+.guildad-feeds .feed button
+{
+  border: 1px solid #e0ca00;
+  background-color: #fae100;
+  color: #3b1e1e;
+  font-weight: 500;
+  width: 100%;
+  padding: 10px;
+}
+.guildad-server-apply
+{
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+.guildad-server-apply a
+{
+  padding: 10px;
+  padding-bottom: 7px;
+  float: left;
+  background-color: #f9f9f9;
+  border-bottom: 3px solid #f9f9f9;
+  color: #888;
+}
+.guildad-server-apply a:hover
+{
+  font-weight: 700;
+  color: #424e8a;  
+}
+.guildad-server-apply a.active
+{
+  border-bottom: 3px solid #424e8a;
+  font-weight: 700;
+  color: #424e8a;
+}
+/* ~ guildad */
+
+/* sign ~ */
+.sign-box
+{
+  max-width: 300px;
+  margin: auto;
+}
+.sign-box input, .sign-box select
+{
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+}
+.sign-box button
+{
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  border: 0px;
+  padding: 10px;
+}
+.sign-box h1
+{
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #aaa;
+}
+/* ~ sign */
+
+/* log ~ */
+.log-box .table, .log-box table
+{
+  width: 100%;
+  text-align: left;
+}
+.log-box h1
+{
+  font-size: 20px;
+  border-bottom: 1px solid #888;
+  padding: 10px;
+}
+.log-box table th
+{
+  border-bottom: 1px solid #aaa;
+  padding: 10px;
+}
+.log-box table td
+{
+  border-bottom: 1px solid #eee;
+  padding: 10px 10px 5px 10px;
+  font-size: 13px;
+}
+.log-box .kakao button
+{
+  float: right;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: #fff825;
+  border: 1px solid #dcd616;
+  color: #402202;
+}
+/* ~ log */
+
+/* set-box ~ */
+.set-box
+{
+  padding: 0px 10px;
+}
+.set-box > h1
+{
+  font-size: 18px;
+  border-bottom: 1px solid #999;
+}
+.set-box .menu
+{
+  margin-top: 10px;
+  overflow: hidden;
+}
+.set-box .menu ul
+{
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+.set-box .menu li > a
+{
+  padding: 10px;
+}
+.set-box .menu li
+{
+  padding: 10px;
+  color: #888;
+}
+.set-box .menu li.active
+{
+  border-bottom: 1px solid #555;
+  font-weight: 500;
+  color: #212121;
+}
+.set-box .content
+{
+  margin: 10px 0;
+}
+.set-box .content select
+{
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+.set-box .set-calendar, .set-box .set-volume, .set-box .set-alarm
+{
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+.set-box .set-calendar table
+{
+  width: 100%;
+  text-align: left;
+}
+.set-box .set-calendar table th
+{
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+  color: #777;
+}
+.set-box .set-calendar table td
+{
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+.set-box .set-volume input
+{
+  vertical-align: middle;
+  height: 40px;
+  width: 100%;
+}
+.set-box .set-volume button
+{
+  width: 100%;
+  border: none;
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+}
+.set-box h3
+{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+/* ~ set-box */
+
+/* wiget-calender ~*/
+.wiget-calendar
+{
+  overflow: hidden;
+}
+.wiget-calendar, .wiget-calendar, .wiget-calendar .cover
+{
+  width: 100%;
+  height: 100%;
+}
+.wiget-calendar .cover
+{
+  border: 2px solid #222;
+}
+.wiget-calendar .content
+{
+  padding: 5px;
+}
+.wiget-calendar .content table
+{
+  width: 100%;
+  text-align: left;
+}
+.wiget-calendar .content table thead
+{
+  display: none;
+}
+.wiget-calendar .content table td:nth-child(1)
+{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 5px;
+  color: #eee;
+  width: 100px;
+  float: left;
+}
+.wiget-calendar .content table td:nth-child(2)
+{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 5px 20px 5px 10px;
+  margin-bottom: 5px;
+  color: #eee;
+  float: left;
+  width: calc(100% - 100px);
+}
+.wiget-calendar .content .top p
+{
+  color: rgba(255,255,255,.7);
+  padding: 0px 0px 5px 10px;
+  text-shadow: 0px 1px 2px rgba(0,0,0,.5);
+}
+.wiget-calendar .content table tr.css0 > td
+{
+  background-color: rgba(101, 12, 12, 0.8);
+}
+.wiget-calendar .content table tr.css1 > td
+{
+  background-color: rgba(49, 21, 113, 0.8);
+}
+.wiget-calendar .content table tr.css2 > td
+{
+  background-color: rgba(22, 46, 101, 0.8);
+}
+/* ~ wiget-calender */
+
+/* market ~ */
+.market .tab
+{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.market .tab button
+{
+  width: calc(100% / 2);
+  float: left;
+  border: 0px;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  padding: 5px;
+  height: 50px;
+  opacity: 0.6;
+}
+.market .tab button.active
+{
+  border-bottom: 1px solid #111;
+  font-weight: 500;
+  color: #111;
+  opacity: 1;
+}
+.market .tab button img
+{
+  height: 23px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.market .write input
+{
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  border-bottom: 1px solid #ddd;
+}
+.market .write textarea
+{
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  border-bottom: 1px solid #ddd;
+  resize: none;
+}
+.market .write .select-box > div
+{
+  width: calc(100% / 3);
+  float: left;
+}
+.market .write .select-box div.chosen-container-single
+{
+  width: 100% !important;
+}
+.market .write .btn-write
+{
+  width: 100%;
+  border: none;
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+}
+.market .list-server
+{
+  margin-top: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.market .list-server button
+{
+  border: none;
+  padding: 10px;
+  padding-bottom: 7px;
+  float: left;
+  background-color: #ffffff;
+  border-bottom: 2px solid #fff;
+  color: #888;
+}
+.market .list-server button:hover
+{
+  font-weight: 700;
+  color: #424e8a;  
+}
+.market .list-server button.active
+{
+  border: 2px solid #424e8a;
+  font-weight: 700;
+  color: #424e8a;
+}
+.market .table
+{
+  width: 100%;
+  margin-top: 10px;
+}
+.market .table table
+{
+  width: 100%;
+  text-align: left;
+}
+.market .table table th
+{
+  border-bottom: 1px solid #aaa;
+  font-weight: 700;
+  padding: 10px 5px;
+}
+.market .table table td
+{
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+.market .table table th:nth-child(1), .market .table table td:nth-child(1), .market .table table th:nth-child(2), .market .table table td:nth-child(2), .market .table table th:nth-child(6), .market .table table td:nth-child(6)
+{
+  color: rgba(0,0,0,.5);
+}
+.market .table table td:nth-child(3)
+{
+  font-weight: 700;
+}
+.market .table table th:nth-child(7)
+{
+  width: 20px;
+}
+.market .table table td:nth-child(7)
+{
+  position: relative;
+}
+.market .table table td:nth-child(7) > i
+{
+  padding: 5px;
+  cursor: pointer;
+}
+.market .table table .action
+{
+  overflow: hidden;
+  position: absolute;
+  background-color: rgba(0,0,0,.8);
+  width: 100px;
+  right: 0;
+  color: #fff;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 1;
+}
+.market .table table .action li.delete
+{
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.market .search
+{
+  float: right;
+}
+.market .search select
+{
+  width: 200px;
+}
+.market .search .search-btn
+{
+  border: none;
+  background-color: #222;
+  color: #eee;
+  height: 25px;
+}
+/* ~ market */
+
+/* island-ranking ~ */
+.island-ranking
+{
+  overflow: hidden;
+}
+.island-ranking .list table
+{
+  width: 100%;
+  text-align: left;
+  min-width: 550px;
+}
+.island-ranking .list table th
+{
+  font-weight: 500;
+  color: #aaa;
+  font-size: 15px;
+}
+.island-ranking .list table th, .island-ranking .list table td
+{
+  padding: 10px;
+}
+.island-ranking .list table thead
+{
+  border-bottom: 1px solid #bbb;
+}
+.island-ranking .list table td
+{
+  border-bottom: 1px solid #eee;
+}
+.island-ranking .list table th:nth-child(3) img
+{
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+.island-ranking .list table td:nth-child(1), .island-ranking .list table td:nth-child(2), .island-ranking .list table td:nth-child(4)
+{
+  font-size: 15px;
+  color: #999;
+}
+.island-ranking .list table th:nth-child(3), .island-ranking .list table td:nth-child(3)
+{
+  font-size: 15px;
+  font-weight: 500;
+  color: #212121;
+}
+.island-ranking .list table td:nth-child(4)
+{
+  font-weight: 500;
+  color: #ff7a2a;
+}
+/* ~ island-ranking */
+
+/* island-stat ~ */
+.island-stat
+{
+  overflow: hidden;
+  overflow-x: scroll;;
+}
+.island-stat .list table
+{
+  width: 100%;
+  text-align: left;
+  min-width: 1000px;
+}
+.island-stat .list table th
+{
+  font-weight: 500;
+  color: #aaa;
+  font-size: 15px;
+}
+.island-stat .list table th, .island-stat .list table td
+{
+  padding: 10px;
+}
+.island-stat .list table thead
+{
+  border-bottom: 1px solid #bbb;
+}
+.island-stat .list table td
+{
+  border-bottom: 1px solid #eee;
+}
+.island-stat .list table th:nth-child(3) img, .island-stat .list table th:nth-child(5) img
+{
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+.island-stat .list table th:nth-child(3), .island-stat .list table td:nth-child(3)
+{
+  font-size: 15px;
+  font-weight: 500;
+  color: #212121;
+  text-align: right;
+}
+.island-stat .list table th:nth-child(4), .island-stat .list table td:nth-child(4)
+{
+  text-align: right;
+}
+.island-stat .list table th:nth-child(1), .island-stat .list table td:nth-child(1)
+{
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  min-width: 140px;
+}
+.island-stat .list table th:nth-child(5), .island-stat .list table td:nth-child(5)
+{
+  font-size: 13px;
+  color: #888;
+}
+.island-stat .list table td:nth-child(2), .island-stat .list table td:nth-child(4), .island-stat .list table td:nth-child(6)
+{
+  font-size: 14px;
+  color: #999;
+}
+.island-stat .list table th:nth-child(2)
+{
+  min-width: 50px;
+}
+.island-stat .list table th:nth-child(3)
+{
+  min-width: 115px;
+}
+.island-stat .list table th:nth-child(4), .island-stat .list table th:nth-child(6)
+{
+  min-width: 95px;
+}
+/* ~ island-stat */
+
+/* island-index */
+.island-index
+{
+  padding: 10px;
+}
+.island-index .content h1
+{
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid #666;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+.island-index .map-img img
+{
+  width: 100%;
+}
+/* ~ island-index */
+
+/* set-alarm ~ */
+.set-alarm .input-alarm {
+  margin-top: 20px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  height: 54px;
+}
+.set-alarm .input-alarm input {
+  border: none;
+  display: inline-block;
+  height: 100%;
+  padding: 0 20px;
+  outline: none;
+  position: relative;
+  width: calc(100% - 150px);
+}
+.set-alarm .input-alarm-increment,
+.set-alarm .input-alarm-decrement {
+  background-color: white;
+  border: 0;
+  border-left: 1px solid #e6ebee;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  position: absolute;
+  width: 28px;
+  height: 26px;
+  text-align: center;
+  right: 0;
+}
+.set-alarm .input-alarm-increment:hover:before {
+  border-bottom-color: #0073ba;
+}
+.set-alarm .input-alarm-decrement:hover:before {
+  border-top-color: #0073ba;
+}
+.set-alarm .input-alarm-increment {
+  border-bottom: 1px solid #e6ebee;
+  top: 0;
+}
+.set-alarm .input-alarm-decrement {
+  bottom: 0;
+}
+.set-alarm .input-alarm-increment:before,
+.set-alarm .input-alarm-decrement:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.set-alarm .input-alarm-increment:before {
+  border-bottom: 5px solid #0ca6f2;
+}
+.set-alarm .input-alarm-decrement:before {
+  border-top: 5px solid #0ca6f2;
+}
+.set-box .set-alarm #alarm-btn
+{
+  width: 100%;
+  border: none;
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+  margin-top: 10px;
+}
+/* ~ set-alarm */
+
+.ad2, .ad3
+{
+  display: none;
+}
+
+@media (max-width: 800px)
+{
+  .main .content .cover .box
+  {
+    width: 100% !important;
+    float: none;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  header .top .login
+  {
+    display: none;
+  }
+  header .top-m
+  {
+    display: block;
+  }
+  header .menu
+  {
+    display: none;
+    position: absolute;
+    right: 0px;
+    min-width: 200px;
+    background-color: rgba(0,0,0,.7);
+  }
+  header .menu li
+  {
+    float: none;
+  }
+  header .menu li a
+  {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  .guildad-feeds .feed-box
+  {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .ranking .top3
+  {
+    background-size: cover;
+  }
+  .ranking .list, .island-ranking .list
+  {
+    overflow-x: scroll;
+  }
+  .stat .stat-box
+  {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+    padding: 0px 10px;
+  }
+  .ad2, .ad3
+  {
+    display: none !important;
+  }
+}
+@media (min-width: 800px)
+{
+  header .menu
+  {
+    display: block !important;
+  }
+  header .menu .li-m
+  {
+    display: none !important;
+  }
+}
+@media (max-width: 800px)
+{
+  select.chosen-select
+  {
+    width: 100%;
+  }
+}
