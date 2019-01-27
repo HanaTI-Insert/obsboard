@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>로아해 : err</title>
+		<meta name="description" content="로스트아크 전적 검색, 랭킹, 캘린더 알람, 항해지도, 섬의마음 등 정보 제공">
+	<link rel="canonical" href="https://loahae.com">
+	<meta property="og:url" content="https://loahae.com">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="로아해">
+	<meta property="og:description" content="로스트아크 전적 검색, 랭킹, 캘린더 알람, 항해지도, 섬의마음 등 정보 제공">
+	<meta property="og:image" content="https://loahae.com/assets/img/meta.png">
+	<meta name="robots" content="index,follow">
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128581671-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-128581671-1');
+	</script>
+	<link href="/assets/css/loahae.css?190126" rel="stylesheet">
+	<link href="/assets/icon/icon.css" rel="stylesheet">
+	<link href="/assets/css/audioplayer.css?181208" rel="stylesheet">	<style type="text/css">
+		.err-page
+		{
+			text-align: center;
+			padding: 60px 10px;
+			font-size: 25px;
+			color: #777;
+		}
+		.err-page p > span
+		{
+			font-weight: 500;
+			color: #212121;
+		}
+		.err-page h1
+		{
+			font-size: 30px;
+			color: #aaa;
+			font-weight: 700;
+		}
+		.err-page a
+		{
+			border-bottom: 1px solid #aaa;
+			transition: .2s;
+		}
+		.err-page a:hover
+		{
+			color: #7e9c8c;
+		}
+	</style>
+</head>
+<body>
+
+  
+	<div class="top-bg">
+		<header>
+			<div class="top">
+				<div class="c-max-w">
+					<a href="/" class="logo"><img src="/assets/img/logo.png"></a>
+					<a href="/login/" class="login"><button type="button"><i class="icon-login"></i> 로그인</button></a>					<button type="button" class="top-m" id="c-mobile-menu-btn"><i class="icon-menu"></i></button>
+				</div>
+			</div>
+			<div class="menu" id="c-mobile-menu">
+				<div class="c-max-w">
+					<ul>
+						<li class="li-m"><a href="/login/" class="login"><i class="icon-login"></i> 로그인</a></li>
+						<li ><a href="/">캐릭터검색</a></li>
+						<li ><a href="/ranking/">랭킹</a></li>
+						<li ><a href="/stat/">통계</a></li>
+						<li ><a href="/calendar/">캘린더</a></li>
+						<li ><a href="/island/">항해지도/랭킹/정보</a></li>
+						<li ><a href="/market/">자유시장</a></li>
+						<li ><a href="/guildad/">길드모집</a></li>
+						<li><a href="https://open.kakao.com/o/gPmSD34" target="_blank">채팅</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+	</div>
+	<div class="c-content c-max-w">
+
+		<div class="err-page">
+			<h1>죄송합니다</h1>
+			<p><span>존재하지 않는 페이지</span> 또는 <span>개발 중인 페이지</span> 입니다.</p>
+			<a href="/">메인으로 이동</a>
+		</div>
+
+	</div>
+
+<footer>
+	<p><a href="https://open.kakao.com/o/svusE34" target="_blank">의견/문의/개선 요청</a> | <a href="/log/" target="_blank">개발 일지 및 안내판</a></p>
+	<p>Copyright ⓒ 2018 로아해(loahae.com) All Rights Reserved</p>
+</footer>
+<div class="c-modal-res">
+	<div class="c-modal-all-close" style="display: none;">
+		모두 닫기
+	</div>
+	<div id="c-modal-res">
+	</div>
+</div>
+<div id="c-alarm" style="display: none;">
+</div>
+<div class="c-audio-container">
+ <div class="c-audio-notice">
+   <i class="icon-cancel"></i>
+ 	<span style="color: #c7fffa; font-weight: 700; margin-right: 5px; font-size: 14px;">New</span><br />
+ 	캘린더 알람 관련 설정(<a href="/set/"><i class="icon-cog" style="float: none;"></i></a>)은 로그인 필요<br />
+ 	크롬 보안 문제로 인해, 아래 버튼을 눌러 최초 1회 직접 재생 -> 자동소리알람 발생
+ </div>
+ <div class="c-audio-box">
+   <audio preload="auto" controls>
+     <source src="/assets/audio/alarm.mp3">
+   </audio>
+ </div>
+</div>
+
+<script src='/assets/js/jquery-loahae.js?181209'></script>
+<script src="/assets/js/audioplayer.min.js"></script>
+<script src="/assets/js/ad.js?190118"></script>
+<script type="text/javascript">
+(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
+$('.c-audio-box audio').audioPlayer();
+$(function()
+{
+	calendar_load();
+	setInterval(function()
+	{
+		calendar_alarm();
+	}, 1000)
+
+	$(document).on('click','.c-audio-container .icon-cancel',function()
+	{
+		$('.c-audio-notice').fadeOut(200);
+	})
+
+	$(document).on('click','.c-modal-all-close',function()
+	{
+		$('.c-modal').fadeOut(200);
+		$('.c-modal-all-close').attr('style','display: none;');
+	})
+
+	$(document).on('click','.c-modal .close',function()
+	{
+		$(this).parents('.c-modal').fadeOut(200);
+	})
+
+	$(document).on('click','#c-mobile-menu-btn',function()
+	{
+		$('#c-mobile-menu').slideToggle(200);
+	});
+
+	var contentHeight = $(window).height();var footerHeight = $('footer').height();var footerTop = $('footer').position().top + footerHeight;if (footerTop < contentHeight){var footer_res = (contentHeight - footerTop) - 30;	if(footer_res < 0){	var footer_res = footer_res -30;	} if(footer_res > 300){ var footer_res = 200;} $('footer').css('margin-top', footer_res + 'px');
+	}
+
+	$('.c-audio-box audio')[0].volume = 0.4;
+
+})
+</script>
+</body>
+</html>
